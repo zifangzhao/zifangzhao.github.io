@@ -1,0 +1,6 @@
+p03_i001_1634x629.jpg	page=3	image=1	size=1634x629	area=1027786	source=Im0.png
+p05_i001_1946x1090.jpg	page=5	image=1	size=1946x1090	area=2121140	source=Im0.jp2
+p07_i001_2581x1380.jpg	page=7	image=1	size=2581x1380	area=3561780	source=Im0.png
+p08_i001_2572x1450.jpg	page=8	image=1	size=2572x1450	area=3729400	source=Im0.png
+p10_i001_1092x1305.jpg	page=10	image=1	size=1092x1305	area=1425060	source=Im0.jp2
+p13_i001_2048x1152.jpg	page=13	image=1	size=2048x1152	area=2359296	source=Im0.png

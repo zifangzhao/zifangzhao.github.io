@@ -1,0 +1,5 @@
+p03_i002_2050x1370.jpg	page=3	image=2	size=2050x1370	area=2808500	source=Im2.tif
+p04_i002_1499x1405.jpg	page=4	image=2	size=1499x1405	area=2106095	source=Im3.jpg
+p05_i002_2047x634.jpg	page=5	image=2	size=2047x634	area=1297798	source=Im5.jpg
+p05_i003_2050x841.jpg	page=5	image=3	size=2050x841	area=1724050	source=Im4.jpg
+p06_i002_2050x1117.jpg	page=6	image=2	size=2050x1117	area=2289850	source=Im6.tif

@@ -1,0 +1,6 @@
+p03_i001_218x216.jpg	page=3	image=1	size=218x216	area=47088	source=Im0.jpg
+p04_i001_496x637.jpg	page=4	image=1	size=496x637	area=315952	source=Im0.jpg
+p05_i001_885x577.jpg	page=5	image=1	size=885x577	area=510645	source=Im0.jpg
+p06_i053_440x122.jpg	page=6	image=53	size=440x122	area=53680	source=Im56.jpg
+p07_i001_461x190.jpg	page=7	image=1	size=461x190	area=87590	source=Im0.jpg
+p07_i002_368x190.jpg	page=7	image=2	size=368x190	area=69920	source=Im1.jpg

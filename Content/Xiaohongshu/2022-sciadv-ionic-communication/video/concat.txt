@@ -1,0 +1,9 @@
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2022-sciadv-ionic-communication/jpg/01.jpg'
+duration 9
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2022-sciadv-ionic-communication/jpg/02.jpg'
+duration 9
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2022-sciadv-ionic-communication/jpg/03.jpg'
+duration 9
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2022-sciadv-ionic-communication/jpg/04.jpg'
+duration 9
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2022-sciadv-ionic-communication/jpg/04.jpg'

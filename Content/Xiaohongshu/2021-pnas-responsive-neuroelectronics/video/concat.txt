@@ -1,0 +1,11 @@
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2021-pnas-responsive-neuroelectronics/jpg/01.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2021-pnas-responsive-neuroelectronics/jpg/02.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2021-pnas-responsive-neuroelectronics/jpg/03.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2021-pnas-responsive-neuroelectronics/jpg/04.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2021-pnas-responsive-neuroelectronics/jpg/05.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2021-pnas-responsive-neuroelectronics/jpg/05.jpg'

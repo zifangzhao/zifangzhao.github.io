@@ -1,0 +1,11 @@
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2026-nature-sensors-event-based-neurostimulation/jpg/01.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2026-nature-sensors-event-based-neurostimulation/jpg/02.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2026-nature-sensors-event-based-neurostimulation/jpg/03.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2026-nature-sensors-event-based-neurostimulation/jpg/04.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2026-nature-sensors-event-based-neurostimulation/jpg/05.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2026-nature-sensors-event-based-neurostimulation/jpg/05.jpg'

@@ -1,0 +1,13 @@
+p01_i002_1100x90.jpg	page=1	image=2	size=1100x90	area=99000	source=Im1.png
+p02_i001_685x227.jpg	page=2	image=1	size=685x227	area=155495	source=Im0.jpg
+p02_i002_483x165.jpg	page=2	image=2	size=483x165	area=79695	source=Im1.jpg
+p02_i003_246x225.jpg	page=2	image=3	size=246x225	area=55350	source=Im2.jpg
+p02_i004_257x312.jpg	page=2	image=4	size=257x312	area=80184	source=Im3.jp2
+p03_i001_434x119.jpg	page=3	image=1	size=434x119	area=51646	source=Im0.png
+p04_i003_324x221.jpg	page=4	image=3	size=324x221	area=71604	source=Im2.jpg
+p05_i001_812x577.jpg	page=5	image=1	size=812x577	area=468524	source=Im0.jpg
+p05_i003_689x580.jpg	page=5	image=3	size=689x580	area=399620	source=Im2.jpg
+p06_i001_390x177.jpg	page=6	image=1	size=390x177	area=69030	source=Im0.jpg
+p07_i001_632x538.jpg	page=7	image=1	size=632x538	area=340016	source=Im0.jpg
+p07_i002_780x372.jpg	page=7	image=2	size=780x372	area=290160	source=Im1.jpg
+p13_i001_942x147.jpg	page=13	image=1	size=942x147	area=138474	source=Im1.png

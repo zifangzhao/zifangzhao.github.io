@@ -1,0 +1,11 @@
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2024-advanced-science-aci-epidermal-emg/jpg/01.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2024-advanced-science-aci-epidermal-emg/jpg/02.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2024-advanced-science-aci-epidermal-emg/jpg/03.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2024-advanced-science-aci-epidermal-emg/jpg/04.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2024-advanced-science-aci-epidermal-emg/jpg/05.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2024-advanced-science-aci-epidermal-emg/jpg/05.jpg'

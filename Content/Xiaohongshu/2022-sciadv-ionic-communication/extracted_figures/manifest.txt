@@ -1,0 +1,8 @@
+p02_i029_170x430.jpg	page=2	image=29	size=170x430	area=73100	source=Im178.png
+p02_i138_169x312.jpg	page=2	image=138	size=169x312	area=52728	source=Im84.jpg
+p03_i001_1501x953.jpg	page=3	image=1	size=1501x953	area=1430453	source=Im0.png
+p06_i006_508x465.jpg	page=6	image=6	size=508x465	area=236220	source=Im0.jpg
+p06_i017_228x442.jpg	page=6	image=17	size=228x442	area=100776	source=Im10.png
+p06_i023_187x441.jpg	page=6	image=23	size=187x441	area=82467	source=Im7.png
+p06_i024_105x440.jpg	page=6	image=24	size=105x440	area=46200	source=Im8.png
+p07_i001_1396x726.jpg	page=7	image=1	size=1396x726	area=1013496	source=Im0.jpg

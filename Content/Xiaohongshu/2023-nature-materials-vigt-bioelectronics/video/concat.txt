@@ -1,0 +1,11 @@
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2023-nature-materials-vigt-bioelectronics/jpg/01.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2023-nature-materials-vigt-bioelectronics/jpg/02.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2023-nature-materials-vigt-bioelectronics/jpg/03.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2023-nature-materials-vigt-bioelectronics/jpg/04.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2023-nature-materials-vigt-bioelectronics/jpg/05.jpg'
+duration 8
+file 'C:/code/github/zifangzhao/Content/Xiaohongshu/2023-nature-materials-vigt-bioelectronics/jpg/05.jpg'
