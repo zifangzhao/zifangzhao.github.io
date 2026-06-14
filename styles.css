@@ -302,16 +302,17 @@ button,
 }
 
 .profile-panel__portrait {
+  width: 132px;
   margin: 0 0 18px;
   overflow: hidden;
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: 10px;
   background: linear-gradient(180deg, rgba(138, 21, 56, 0.08), rgba(255, 255, 255, 0));
 }
 
 .profile-panel__portrait img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1;
   object-fit: cover;
   object-position: center 18%;
 }
@@ -971,8 +972,8 @@ button,
 }
 
 .identity-block__portrait {
-  flex: 0 0 112px;
-  width: 112px;
+  flex: 0 0 88px;
+  width: 88px;
   margin: 0;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -982,7 +983,7 @@ button,
 
 .identity-block__portrait img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1;
   object-fit: cover;
   object-position: center 18%;
 }
@@ -1274,7 +1275,7 @@ button,
   }
 
   .identity-block__portrait {
-    width: min(180px, 100%);
+    width: 96px;
     flex-basis: auto;
   }
 }
