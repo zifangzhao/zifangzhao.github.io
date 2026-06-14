@@ -301,22 +301,6 @@ button,
   box-shadow: var(--shadow);
 }
 
-.profile-panel__portrait {
-  width: 132px;
-  margin: 0 0 18px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  background: linear-gradient(180deg, rgba(138, 21, 56, 0.08), rgba(255, 255, 255, 0));
-}
-
-.profile-panel__portrait img {
-  width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
-  object-position: center 18%;
-}
-
 .profile-panel__section h2 {
   margin: 6px 0 0;
   font-size: 1.45rem;
