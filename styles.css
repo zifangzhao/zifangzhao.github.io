@@ -301,6 +301,21 @@ button,
   box-shadow: var(--shadow);
 }
 
+.profile-panel__portrait {
+  margin: 0 0 18px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(138, 21, 56, 0.08), rgba(255, 255, 255, 0));
+}
+
+.profile-panel__portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 18%;
+}
+
 .profile-panel__section h2 {
   margin: 6px 0 0;
   font-size: 1.45rem;
@@ -955,6 +970,23 @@ button,
   gap: 18px;
 }
 
+.identity-block__portrait {
+  flex: 0 0 112px;
+  width: 112px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.identity-block__portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 18%;
+}
+
 .identity-block__mark {
   display: grid;
   width: 82px;
@@ -1229,6 +1261,21 @@ button,
 
   .figure-gallery--rail .figure-card {
     flex-basis: min(300px, calc(100vw - 64px));
+  }
+
+  .identity-block {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 520px) {
+  .identity-block {
+    flex-direction: column;
+  }
+
+  .identity-block__portrait {
+    width: min(180px, 100%);
+    flex-basis: auto;
   }
 }
 
