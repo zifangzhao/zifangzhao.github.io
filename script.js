@@ -164,6 +164,8 @@ if (autoplayRails.length) {
 
     const speedPxPerSecond = Number(viewport.dataset.railSpeed || "26");
     const resumeDelayMs = Number(viewport.dataset.railResumeDelay || "1400");
+    const toggle = document.querySelector(`[data-rail-toggle][aria-controls="${viewport.id}"]`);
+    let autoplay = !prefersReducedMotion.matches;
     let frameId = 0;
     let resumeId = 0;
     let lastTimestamp = 0;
@@ -209,7 +211,7 @@ if (autoplayRails.length) {
     };
 
     const start = () => {
-      if (prefersReducedMotion.matches) {
+      if (!autoplay) {
         return;
       }
 
@@ -247,6 +249,36 @@ if (autoplayRails.length) {
       stop();
       scheduleResume();
     }, { passive: true });
+
+    if (toggle) {
+      const updateToggle = () => {
+        const label = autoplay ? "Pause publication autoplay" : "Play publication autoplay";
+        toggle.setAttribute("aria-label", label);
+        toggle.title = label;
+        toggle.querySelector("[data-rail-pause]").toggleAttribute("hidden", !autoplay);
+        toggle.querySelector("[data-rail-play]").toggleAttribute("hidden", autoplay);
+      };
+
+      toggle.addEventListener("click", () => {
+        autoplay = !autoplay;
+        window.clearTimeout(resumeId);
+        if (autoplay) {
+          start();
+        } else {
+          stop();
+        }
+        updateToggle();
+      });
+
+      prefersReducedMotion.addEventListener("change", (event) => {
+        if (event.matches) {
+          autoplay = false;
+          stop();
+          updateToggle();
+        }
+      });
+      updateToggle();
+    }
 
     start();
 

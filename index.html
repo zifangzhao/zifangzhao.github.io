@@ -44,7 +44,19 @@
       </header>
 
       <main>
-        <section class="masthead">
+        <section class="masthead masthead--photo">
+          <figure class="masthead__visual">
+            <img
+              src="images/wild-hardware.jpg"
+              width="695"
+              height="483"
+              alt="Close-up of the gold flexible neural probe connected to the WILD circuit board."
+              fetchpriority="high"
+            />
+            <figcaption>
+              <a href="https://doi.org/10.1038/s41592-026-03220-9">WILD hardware &middot; Nature Methods, Fig. 2g</a>
+            </figcaption>
+          </figure>
           <div class="masthead__inner">
             <div class="masthead__copy">
               <p class="kicker">Cornell University | Department of Neurobiology and Behavior</p>
@@ -53,72 +65,12 @@
                 Neural interfaces and closed-loop bioelectronics for systems
                 neuroscience.
               </p>
-              <p class="body-copy">
-                I develop implantable and wearable bioelectronic systems to
-                record, stimulate, and modulate neural circuits in freely
-                behaving animals. My research integrates neural interface
-                hardware, soft bioelectronic materials, embedded sensing, and
-                closed-loop intervention to study circuit dynamics in epilepsy,
-                pain, and natural behavior.
-              </p>
               <div class="action-row">
-                <a class="button button--primary" href="research.html">View research</a>
-                <a class="button button--secondary" href="publications.html">View publications</a>
+                <a class="button button--primary" href="research.html">Research</a>
+                <a class="button button--secondary" href="publications.html">Publications</a>
                 <a class="text-link" href="Resources/Zhao_20260915_CV_Neuro.docx">Download CV</a>
               </div>
             </div>
-
-            <aside class="profile-panel">
-              <div class="profile-panel__section">
-                <span class="profile-panel__label">Research profile</span>
-                <h2>Neural engineering, bioelectronics, and systems neuroscience</h2>
-                <p>
-                  Experimental neurotechnology for recording, stimulation, and
-                  closed-loop circuit interrogation in preclinical models.
-                </p>
-              </div>
-              <dl class="fact-list">
-                <div>
-                  <dt>Affiliation</dt>
-                  <dd>Cornell University</dd>
-                </div>
-                <div>
-                  <dt>Focus</dt>
-                  <dd>Closed-loop neurotechnology, neural interfaces, and bioelectronics</dd>
-                </div>
-                <div>
-                  <dt>Contact</dt>
-                  <dd><a href="mailto:zifangzhao@gmail.com">zifangzhao@gmail.com</a></dd>
-                </div>
-                <div>
-                  <dt>Office</dt>
-                  <dd>W361 Mudd Hall, 215 Tower Road, Ithaca, NY</dd>
-                </div>
-              </dl>
-              <div class="profile-panel__links">
-                <a href="https://scholar.google.com/citations?user=bL6RPnoAAAAJ&hl=en">Google Scholar</a>
-                <a href="contact.html">Contact details</a>
-              </div>
-            </aside>
-          </div>
-
-          <div class="stats-row" aria-label="Research summary">
-            <article>
-              <strong>Implantable systems</strong>
-              <span>Recording, stimulation, and embedded control</span>
-            </article>
-            <article>
-              <strong>Flexible biointerfaces</strong>
-              <span>Organic, iontronic, and epidermal platforms</span>
-            </article>
-            <article>
-              <strong>Wireless neurologgers</strong>
-              <span>Multimodal recording in freely behaving animals</span>
-            </article>
-            <article>
-              <strong>Systems neuroscience</strong>
-              <span>Epilepsy, pain, and naturalistic behavior</span>
-            </article>
           </div>
         </section>
 
@@ -127,7 +79,8 @@
             <div>
               <h2>Publications</h2>
             </div>
-            <div class="section__intro-block">
+            <div class="publication-rail-toolbar">
+              <a class="text-link" href="publications.html">All publications</a>
               <div
                 class="rolling-panel__actions"
                 aria-label="Publication rail controls"
@@ -140,6 +93,19 @@
                   aria-label="Scroll publications left"
                 >
                   <span aria-hidden="true">&larr;</span>
+                </button>
+                <button
+                  class="rail-button"
+                  type="button"
+                  data-rail-toggle
+                  aria-controls="featured-publication-rail"
+                  aria-label="Pause publication autoplay"
+                  title="Pause publication autoplay"
+                >
+                  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path data-rail-pause d="M10 5H6v14h4zM18 5h-4v14h4z" />
+                    <path data-rail-play d="m9 5 11 7-11 7z" hidden />
+                  </svg>
                 </button>
                 <button
                   class="rail-button"
@@ -164,207 +130,223 @@
             aria-label="Horizontally scrollable publications"
           >
             <article class="figure-card">
-              <a class="figure-card__media" href="https://doi.org/10.1038/s41592-026-03220-9">
-                <img
-                  src="images/feature-platform-wild.jpg"
-                  alt="WILD system diagram and head-mounted datalogger assembly (Figure 1b)."
-                  loading="eager"
-                />
+              <a class="figure-card__media" href="https://doi.org/10.1038/s41592-026-03220-9" aria-label="Read Wireless neuro-behavioral recording and closed-loop manipulation via DOI">
+                <img src="images/feature-platform-wild.jpg" alt="WILD system diagram and head-mounted datalogger assembly (Figure 1b)." loading="eager" />
               </a>
               <div class="figure-card__body">
                 <p class="figure-card__meta">Nature Methods | 2026</p>
                 <h3>Wireless neuro-behavioral recording and closed-loop manipulation</h3>
-                <p>
-                  A wireless modular platform for synchronized neural and
-                  behavioral recording with onboard closed-loop intervention.
-                </p>
               </div>
             </article>
 
             <article class="figure-card">
-              <a class="figure-card__media" href="https://doi.org/10.1038/s44460-025-00007-x">
-                <img
-                  src="images/papers/natsensors-2026-event-sensor.jpg"
-                  alt="Organic event-driven sensor layouts for closed-loop neurostimulation."
-                  loading="eager"
-                />
+              <a class="figure-card__media" href="https://doi.org/10.1038/s44460-025-00007-x" aria-label="Read Event-based sensors for closed-loop neurostimulation via DOI">
+                <img src="images/papers/natsensors-2026-event-sensor.jpg" alt="Flexible event-based sensor mounted on a fingertip." loading="eager" />
               </a>
               <div class="figure-card__body">
                 <p class="figure-card__meta">Nature Sensors | 2026</p>
                 <h3>Event-based sensors for closed-loop neurostimulation</h3>
-                <p>
-                  Low-energy organic sensing systems designed for fast,
-                  high-frequency closed-loop neurostimulation.
-                </p>
               </div>
             </article>
 
             <article class="figure-card">
-              <a class="figure-card__media" href="https://doi.org/10.1002/advs.202308014">
-                <img
-                  src="images/papers/advsci-2024-epidermal-interface.jpg"
-                  alt="High-density epidermal interface array and spatial recording results."
-                  loading="eager"
-                />
+              <a class="figure-card__media" href="https://doi.org/10.1038/s41593-025-01988-1" aria-label="Read Closed-loop stimulation and focal epilepsy via DOI">
+                <img src="images/papers/natneurosci-2025-closed-loop.jpg" alt="Closed-loop stimulation schematic and the recorded signals in Figure 4." loading="eager" title="Ferrero et al., Fig. 4 (CC BY 4.0)" />
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Nature Neuroscience | 2025</p>
+                <h3>Closed-loop stimulation and focal epilepsy</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1038/s41467-024-55284-w" aria-label="Read Conformable organic transistor circuits via DOI">
+                <img src="images/papers/natcommun-2025-organic-transistors.jpg" alt="Conformable transistor amplifier, micrographs and recordings in Figure 3." loading="lazy" title="Wisniewski et al., Fig. 3 (CC BY 4.0)" />
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Nature Communications | 2025</p>
+                <h3>Conformable organic transistor circuits</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1002/advs.202308014" aria-label="Read High-resolution epidermal interfaces via DOI">
+                <img src="images/papers/advsci-2024-epidermal-interface.jpg" alt="High-density epidermal interface array and spatial recording results." loading="lazy" />
               </a>
               <div class="figure-card__body">
                 <p class="figure-card__meta">Advanced Science | 2024</p>
                 <h3>High-resolution epidermal interfaces</h3>
-                <p>
-                  Interface engineering for denser and more spatially specific
-                  epidermal electrophysiology.
-                </p>
               </div>
             </article>
 
             <article class="figure-card">
-              <a class="figure-card__media" href="https://doi.org/10.1038/s41563-023-01599-w">
-                <img
-                  src="images/papers/natmat-2023-organic-biointerface.jpg"
-                  alt="Conformable organic biointerface device panels and implantation views."
-                  loading="eager"
-                />
+              <a class="figure-card__media" href="https://doi.org/10.1038/s41563-023-01599-w" aria-label="Read Conformable organic biointerfaces via DOI">
+                <img src="images/papers/natmat-2023-organic-biointerface.jpg" alt="Conformable organic biointerface device panels and implantation views." loading="lazy" />
               </a>
               <div class="figure-card__body">
                 <p class="figure-card__meta">Nature Materials | 2023</p>
                 <h3>Conformable organic biointerfaces</h3>
-                <p>
-                  Standalone organic electrochemical transistor systems for
-                  soft, conformable interfaces with biological tissue.
-                </p>
               </div>
             </article>
 
             <article class="figure-card">
-              <a class="figure-card__media" href="https://doi.org/10.1002/advs.202202306">
-                <img
-                  src="images/papers/advsci-2022-single-neuron-interface.jpg"
-                  alt="Organic neural interface layouts and device structures for single-neuron resolution."
-                  loading="eager"
-                />
+              <a class="figure-card__media" href="https://doi.org/10.1126/sciadv.adh4443" aria-label="Read Plant electrophysiology in the Venus flytrap via DOI">
+                <img src="images/papers/sciadv-2023-flytrap.jpg" alt="Flexible multielectrode arrays on a Venus flytrap and recorded signals in Figure 1." loading="lazy" title="Armada-Moreira et al., Fig. 1 (CC BY-NC 4.0)" />
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Science Advances | 2023</p>
+                <h3>Plant electrophysiology in the Venus flytrap</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1016/j.tins.2022.10.003" aria-label="Read Large-scale closed-loop interrogation of neural circuits via DOI">
+                <span class="publication-cover" aria-hidden="true"><strong>Trends in Neurosciences</strong><span>2022</span></span>
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Trends in Neurosciences | 2022</p>
+                <h3>Large-scale closed-loop interrogation of neural circuits</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1038/s41551-021-00817-7" aria-label="Read Light-driven peripheral nerve stimulation via DOI">
+                <span class="publication-cover" aria-hidden="true"><strong>Nature Biomedical Engineering</strong><span>2022</span></span>
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Nature Biomedical Engineering | 2022</p>
+                <h3>Light-driven peripheral nerve stimulation</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1002/advs.202104404" aria-label="Read Anisotropic ion-conducting composites via DOI">
+                <img src="images/papers/advsci-2022-ion-composites.jpg" alt="Wearable recording with an anisotropic ion-conducting interface in Figure 6." loading="lazy" title="Yao et al., Fig. 6 (CC BY 4.0)" />
               </a>
               <div class="figure-card__body">
                 <p class="figure-card__meta">Advanced Science | 2022</p>
-                <h3>Single-neuron organic interfaces</h3>
-                <p>
-                  Organic neural interfaces aimed at single-neuron-scale
-                  resolution with device architectures suitable for advanced
-                  neurotechnology development.
-                </p>
+                <h3>Anisotropic ion-conducting composites</h3>
               </div>
             </article>
 
             <article class="figure-card">
-              <a class="figure-card__media" href="https://doi.org/10.1126/sciadv.abm7851">
-                <img
-                  src="images/papers/sciadv-2022-ionic-communication.jpg"
-                  alt="Ionic communication transmission schematics through tissue."
-                  loading="eager"
-                />
+              <a class="figure-card__media" href="https://doi.org/10.1126/sciadv.abm7851" aria-label="Read Ionic communication through tissue via DOI">
+                <img src="images/papers/sciadv-2022-ionic-communication.jpg" alt="Ionic communication transmission schematics through tissue." loading="lazy" />
               </a>
               <div class="figure-card__body">
                 <p class="figure-card__meta">Science Advances | 2022</p>
                 <h3>Ionic communication through tissue</h3>
-                <p>
-                  Implantable bioelectronic communication strategies that use
-                  ionic conduction through tissue rather than conventional radio
-                  frequency links alone.
-                </p>
               </div>
             </article>
 
             <article class="figure-card">
-              <a class="figure-card__media" href="https://doi.org/10.1073/pnas.2022659118">
-                <img
-                  src="images/papers/pnas-2021-closed-loop.jpg"
-                  alt="Implantable closed-loop neural interface with device and recording panels."
-                  loading="eager"
-                />
+              <a class="figure-card__media" href="https://doi.org/10.1002/advs.202202306" aria-label="Read Single-neuron organic interfaces via DOI">
+                <img src="images/papers/advsci-2022-single-neuron-interface.jpg" alt="Organic neural interface layouts and device structures for single-neuron resolution." loading="lazy" />
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Advanced Science | 2022</p>
+                <h3>Single-neuron organic interfaces</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1073/pnas.2022659118" aria-label="Read Responsive implantable neuroelectronics via DOI">
+                <img src="images/papers/pnas-2021-closed-loop.jpg" alt="Implantable closed-loop neural interface with device and recording panels." loading="lazy" />
               </a>
               <div class="figure-card__body">
                 <p class="figure-card__meta">PNAS | 2021</p>
                 <h3>Responsive implantable neuroelectronics</h3>
-                <p>
-                  Fully implantable multiplexed neuroelectronics for preclinical
-                  closed-loop recording and stimulation in pathological network
-                  activity.
-                </p>
               </div>
             </article>
-          </div>
-        </section>
 
-        <section class="section">
-          <div class="section__header">
-            <div>
-              <p class="section__kicker">Research overview</p>
-              <h2>Research Topics</h2>
-            </div>
-            <p class="section__intro">
-              My work is organized around neural interface technologies that
-              support mechanistic questions in systems neuroscience rather than
-              device performance in isolation.
-            </p>
-          </div>
-
-          <div class="topic-grid">
-            <article class="topic-card">
-              <span class="topic-card__index">01</span>
-              <h3>Implantable and wearable neural interfaces</h3>
-              <p>
-                Implantable and wearable platforms for neural recording,
-                stimulation, and low-power embedded control in preclinical
-                neuroscience experiments.
-              </p>
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1002/adfm.201909165" aria-label="Read Translational neuroelectronics via DOI">
+                <span class="publication-cover" aria-hidden="true"><strong>Advanced Functional Materials</strong><span>2020</span></span>
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Advanced Functional Materials | 2020</p>
+                <h3>Translational neuroelectronics</h3>
+              </div>
             </article>
 
-            <article class="topic-card">
-              <span class="topic-card__index">02</span>
-              <h3>Flexible and organic biointerfaces</h3>
-              <p>
-                Soft, conformable, and iontronic device architectures designed
-                to improve tissue coupling, spatial resolution, and new modes
-                of bioelectronic communication.
-              </p>
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1126/sciadv.aaz6767" aria-label="Read Mixed-conducting composites for soft electronics via DOI">
+                <img src="images/papers/sciadv-2020-mixed-conductors.jpg" alt="Mixed-conducting composite schematics and microscopy in Figure 1." loading="lazy" title="Jastrzebska-Perfect et al., Fig. 1 (CC BY-NC 4.0)" />
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Science Advances | 2020</p>
+                <h3>Mixed-conducting composites for soft electronics</h3>
+              </div>
             </article>
 
-            <article class="topic-card">
-              <span class="topic-card__index">03</span>
-              <h3>Closed-loop systems neuroscience</h3>
-              <p>
-                Experimental systems for biomarker-guided intervention and
-                multimodal recording in epilepsy, pain, and naturalistic
-                behavior.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section section--tint">
-          <div class="section__header">
-            <div>
-              <p class="section__kicker">Research direction</p>
-              <h2>Technology Development for Mechanistic Neuroscience</h2>
-            </div>
-          </div>
-
-          <div class="two-column-grid">
-            <article class="panel">
-              <h3>Scientific direction</h3>
-              <ul class="clean-list">
-                <li>Build neural interfaces that combine recording, stimulation, sensing, and embedded decision making.</li>
-                <li>Use preclinical closed-loop systems to study circuit dynamics in epilepsy, pain, and natural behavior.</li>
-                <li>Develop bioelectronic materials and form factors that expand what can be measured or perturbed in freely behaving animals.</li>
-              </ul>
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.3389/fnins.2019.01322" aria-label="Read 3D-printed multi-drive recording system via DOI">
+                <img src="images/papers/frontneuro-2019-multi-drive.jpg" alt="Exploded view of the 3D-printed multi-drive system in Figure 1." loading="lazy" title="Ma et al., Fig. 1 (CC BY 4.0)" />
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Frontiers in Neuroscience | 2019</p>
+                <h3>3D-printed multi-drive recording system</h3>
+              </div>
             </article>
 
-            <article class="panel">
-              <h3>Research approach</h3>
-              <ul class="clean-list">
-                <li>Hardware design, materials, and analysis are developed alongside specific neuroscience questions.</li>
-                <li>Projects are framed for experimental rigor and biological interpretability.</li>
-                <li>Claims are kept bounded to preclinical and technology-development settings unless broader evidence exists.</li>
-              </ul>
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1007/978-981-13-1756-9_15" aria-label="Read Electrophysiological signature of pain via DOI">
+                <span class="publication-cover" aria-hidden="true"><strong>Advances in Pain Research</strong><span>2018</span></span>
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Advances in Pain Research | 2018</p>
+                <h3>Electrophysiological signature of pain</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.3389/fnmol.2018.00024" aria-label="Read Calcium channels and neuropathic pain via DOI">
+                <img src="images/papers/frontmol-2018-neuropathic-pain.jpg" alt="Sural nerve recording schematic and example signals in Figure 1." loading="lazy" title="Chen et al., Fig. 1 (CC BY 4.0)" />
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Frontiers in Molecular Neuroscience | 2018</p>
+                <h3>Calcium channels and neuropathic pain</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1007/s12264-017-0175-5" aria-label="Read Mapping information in local field potentials via DOI">
+                <span class="publication-cover" aria-hidden="true"><strong>Neuroscience Bulletin</strong><span>2017</span></span>
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Neuroscience Bulletin | 2017</p>
+                <h3>Mapping information in local field potentials</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.3389/fncir.2017.00071" aria-label="Read Neural oscillations during laser-induced nociception via DOI">
+                <img src="images/papers/frontcir-2017-nociception.jpg" alt="Maps of oscillatory power changes after laser stimulation in Figure 2." loading="lazy" title="Li et al., Fig. 2 (CC BY 4.0)" />
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Frontiers in Neural Circuits | 2017</p>
+                <h3>Neural oscillations during laser-induced nociception</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1126/sciadv.1601027" aria-label="Read Organic electronics for human electrocorticography via DOI">
+                <img src="images/papers/sciadv-2016-neurogrid.jpg" alt="NeuroGrid electrode micrographs and an implantation photograph in Figure 1." loading="lazy" title="Khodagholy et al., Fig. 1 (CC BY-NC 4.0)" />
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Science Advances | 2016</p>
+                <h3>Organic electronics for human electrocorticography</h3>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <a class="figure-card__media" href="https://doi.org/10.1016/j.brainres.2011.10.016" aria-label="Read Satellite glial cells and neuropathic pain via DOI">
+                <span class="publication-cover" aria-hidden="true"><strong>Brain Research</strong><span>2012</span></span>
+              </a>
+              <div class="figure-card__body">
+                <p class="figure-card__meta">Brain Research | 2012</p>
+                <h3>Satellite glial cells and neuropathic pain</h3>
+              </div>
             </article>
           </div>
         </section>
